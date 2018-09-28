@@ -13,6 +13,7 @@
 		<class>br.senac.rn.loja.model.Produto</class>
 		<class>br.senac.rn.loja.model.Cliente</class>
 		<class>br.senac.rn.loja.model.Venda</class>
+		<class>br.senac.rn.loja.model.Atendente</class>
 
 		<properties>
 

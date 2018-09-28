@@ -7,12 +7,12 @@ public class TestaMarca {
 
 	public static void main(String[] args) {
 		Marca marca = new Marca();
-		marca.setNome("Umbro");
+		marca.setNome("");
 		
 		MarcaDAO dao = new MarcaDAO();
 		dao.insert(marca);
 				
-		System.out.println(dao.findAll());
+		System.out.println(new MarcaDAO().findAll());
 
 	}
 

@@ -12,7 +12,7 @@ public class TestaDepartamento {
 		departamento.setDesconto(0.15f);
 		
 		DepartamentoDAO dao = new DepartamentoDAO();
-		dao.insert(departamento);
+		//dao.insert(departamento);
 //		EntityManagerFactory factory = Persistence.createEntityManagerFactory("ConexaoDB");//cria uma fabrica de persistencia
 //		EntityManager manager = factory.createEntityManager();//cria um gerenciador da fabrica, com a persistencia criar a entidade
 //		
@@ -22,7 +22,7 @@ public class TestaDepartamento {
 //		manager.getTransaction().commit();
 		
 		//buscas com hibernate
-		System.out.println(dao.findAll());
+		System.out.println(dao.findAll2());
 		
 //		manager.close();
 //		factory.close();
